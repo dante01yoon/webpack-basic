@@ -1,7 +1,10 @@
+import { func1 } from "./util_esm";
 import React from "react";
 import ReactDOM from "react-dom";
 import "./App.css";
 import text from "./text.txt";
+
+func1();
 
 const App = () => {
   return (

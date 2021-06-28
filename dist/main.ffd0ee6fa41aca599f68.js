@@ -16,7 +16,17 @@
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\n/* harmony import */ var _App_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./App.css */ \"./src/App.css\");\n/* harmony import */ var _text_txt__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./text.txt */ \"./src/text.txt\");\n\n\n\n\n\nconst App = () => {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", null, _text_txt__WEBPACK_IMPORTED_MODULE_3__.default);\n};\n\nreact_dom__WEBPACK_IMPORTED_MODULE_1__.render( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(App, null), document.getElementById(\"root\"));\n\n//# sourceURL=webpack://webpack-config/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _util_esm__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./util_esm */ \"./src/util_esm.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\n/* harmony import */ var _App_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./App.css */ \"./src/App.css\");\n/* harmony import */ var _text_txt__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./text.txt */ \"./src/text.txt\");\n\n\n\n\n\n(0,_util_esm__WEBPACK_IMPORTED_MODULE_0__.func1)();\n\nconst App = () => {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(\"div\", null, _text_txt__WEBPACK_IMPORTED_MODULE_4__.default);\n};\n\nreact_dom__WEBPACK_IMPORTED_MODULE_2__.render( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(App, null), document.getElementById(\"root\"));\n\n//# sourceURL=webpack://webpack-config/./src/index.js?");
+
+/***/ }),
+
+/***/ "./src/util_esm.js":
+/*!*************************!*\
+  !*** ./src/util_esm.js ***!
+  \*************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"func1\": () => (/* binding */ func1),\n/* harmony export */   \"func2\": () => (/* binding */ func2)\n/* harmony export */ });\nfunction func1() {\n  console.log(\"func1\");\n}\nfunction func2() {\n  console.log(\"func2\");\n}\n\n//# sourceURL=webpack://webpack-config/./src/util_esm.js?");
 
 /***/ }),
 
