@@ -1,4 +1,4 @@
-import { func1 } from "./util_esm";
+import { func1 } from "./util_common";
 import React from "react";
 import ReactDOM from "react-dom";
 import "./App.css";
