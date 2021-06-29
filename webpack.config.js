@@ -6,14 +6,20 @@ module.exports = {
   entry: "./src/index.js",
   output: {
     filename: "[name].[chunkhash].js",
-    path: path.resolve(__dirname, "./dist")
+    path: path.resolve(__dirname, "./dist"),
+    publicPath: "/dist",
   },
   module: {
     rules: [
       {
         test: /\.(js|ts)x?/,
         exclude: /node_modules/,
-        use: "babel-loader",
+        use: {
+          loader: "babel-loader",
+          options: {
+            configFile: path.resolve(__dirname, ".babelrc.client.js")
+          }
+        },
       },
       {
         test: /\.s?css$/,

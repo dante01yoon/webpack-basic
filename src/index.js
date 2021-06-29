@@ -1,12 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./App.css";
-import text from "./text.txt";
+import { App } from "./App";
 
-const App = () => {
-  return (
-    <div>{text}</div>
-  )
-}
-
-ReactDOM.render(<App />, document.getElementById("root"));
+ReactDOM.hydrate(<App />, document.getElementById("root"));
