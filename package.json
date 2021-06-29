@@ -15,6 +15,7 @@
     "css-loader": "^5.2.6",
     "express": "^4.17.1",
     "html-webpack-plugin": "^5.3.2",
+    "nodemon": "^2.0.7",
     "raw-loader": "^4.0.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -26,6 +27,6 @@
   "scripts": {
     "build-server": "babel src --out-dir dist-server --config-file ./.babelrc.server.js",
     "build": "npm run build-server && webpack",
-    "start": "node dist-server/server.js"
+    "start": "yarn build && nodemon dist-server/server.js"
   }
 }
